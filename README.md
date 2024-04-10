@@ -1,7 +1,8 @@
 # CI/CD **Three-Tier Web Application** Project: 
 # *(DevSecOps, GitOps, Site Reliability)*
 ## **Architecture:**
-![image](https://github.com/CloudHirsi/AWS-CICD-PROJECT/assets/153539293/b4e8d60a-e691-4745-a4ce-c1ef1409553c)
+![image](https://github.com/CloudHirsi/AWS-CICD-PROJECT/assets/153539293/89174459-dee8-45af-8a48-61a1218c6fa5)
+
 
 ## Tools: 
 
