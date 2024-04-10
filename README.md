@@ -1,4 +1,5 @@
-# *End-to-End DevSecOps Kubernetes Project: Including DevSecOps, GitOps, Monitoring for Site Reliability*
+# CI/CD **Three-Tier Web Application** Project: 
+# *(DevSecOps, GitOps, Site Reliability)*
 ## **Architecture:**
 ![image](https://github.com/CloudHirsi/AWS-CICD-PROJECT/assets/153539293/b4e8d60a-e691-4745-a4ce-c1ef1409553c)
 
@@ -116,7 +117,7 @@ To accomplish this, I identified the need for a comprehensive set of tools and t
 - Integrated Grafana for visualizing data and analytics from Prometheus using custom dashboards, providing insights into the performance and health of the infrastructure and applications.
 
 ## **Results:**
-Through my effective selection and integration of these tools and technologies, my *"End-to-End DevSecOps Kubernetes Project"* successfully achieved its objectives of establishing a secure, scalable, and automated containerized application infrastructure on AWS. My implementation of industry best practices through robust security measures, CI/CD automation, GitOps, containerization, container orchestration, and monitoring capabilities laid the foundation for reliable and efficient application deployment and management in a cloud-native environment.
+Through my effective selection and integration of these tools and technologies, my *End-to-End CI/CD Project*  successfully achieved its objectives of deploying a secure, scalable, and automated containerized Three-Tiew Web App onto AWS. My implementation of industry best practices through robust security measures, CI/CD automation, GitOps, containerization, container orchestration, and monitoring capabilities laid the foundation for reliable and efficient application deployment and management in a cloud-native environment.
 
 
 
