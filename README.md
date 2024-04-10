@@ -1,7 +1,6 @@
 # *End-to-End DevSecOps Kubernetes Project: Including DevSecOps, GitOps, Monitoring for Site Reliability*
 ## **Architecture:**
-![image](https://github.com/CloudHirsi/AWS-CICD-PROJECT/assets/153539293/14b2367b-b0a5-4f58-80b3-6c4940cf5f9d)
-
+![image](https://github.com/CloudHirsi/AWS-CICD-PROJECT/assets/153539293/b4e8d60a-e691-4745-a4ce-c1ef1409553c)
 
 ## Tools: 
 
