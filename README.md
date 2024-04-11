@@ -66,7 +66,7 @@
 
 # *PROJECT SUMMARY*
 
-As part of my *"End-to-End DevSecOps Kubernetes Project,"* I undertook the task of developing a robust and secure containerized application infrastructure on AWS. This project aimed to leverage Kubernetes for container orchestration while implementing industry best practices for security and continuous integration/continuous deployment (CI/CD).
+As part of my *End-to-End DevSecOps Project* I undertook the task of deploying a secure containerized application on AWS infrastructure. This project aimed to leverage Kubernetes for container orchestration while implementing industry best practices for security and continuous integration/continuous deployment (CI/CD).
 
 ## **Task:**
 To accomplish this, I identified the need for a comprehensive set of tools and technologies to ensure the security and reliability of the infrastructure and application deployments. My task involved selecting and integrating various tools into the project workflow to address key areas such as cloud provisioning, security scanning, containerization, container orchestration, and monitoring.
