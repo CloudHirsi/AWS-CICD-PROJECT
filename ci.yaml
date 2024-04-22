@@ -275,37 +275,3 @@ jobs:
         with:
           file: kubernetes-manifest/
           args: --severity-threshold=high
-
-  owasp_zap_scan:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-                
-      - name: Install OWASP ZAP
-        run: |
-          echo 'deb http://download.opensuse.org/repositories/home:/cabelo/xUbuntu_22.10/ /' | sudo tee /etc/apt/sources.list.d/home:cabelo.list
-          curl -fsSL https://download.opensuse.org/repositories/home:cabelo/xUbuntu_22.10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_cabelo.gpg > /dev/null
-          sudo apt update
-          sudo apt install -y owasp-zap
-        
-        
-                
-      - name: Run OWASP ZAP Scan
-        run: |
-          zap-cli --start-daemon --port 8090
-          zap-cli --zap-url http://localhost:8090 -c active-scan --spider --url quizaqpp.cloudhirsi.com
-                
-      - name: Save OWASP ZAP Scan Results
-        uses: actions/upload-artifact@v2
-        with:
-           name: owasp-zap-report
-           path: report.html
-
-      - name: Generate OWASP ZAP Report
-        run: zap-cli --zap-url http://localhost:8090 -p 8090 -c report -o report.html -f html
-       
-          
-      - name: Stop OWASP ZAP Daemon
-        run: zap-cli --zap-url http://localhost:8090 -p 8090 -c shutdown 
-          
