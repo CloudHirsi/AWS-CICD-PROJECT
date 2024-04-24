@@ -37,15 +37,14 @@
 ![image](https://github.com/CloudHirsi/AWS-K8-CICD/assets/153539293/0c03cd97-1072-420f-a8b3-d92c80dc305b)
 ![image](https://github.com/CloudHirsi/AWS-K8-CICD/assets/153539293/3437324c-08f5-450c-a2b7-d65797e55414)
 
-
-## ArgoCD:
-![image](https://github.com/CloudHirsi/AWS-K8-CICD/assets/153539293/18e93b51-4d56-4a69-a18d-e69752234f86)
-
 ## SECURITY: SonarQube
 ![image](https://github.com/CloudHirsi/AWS-K8-CICD/assets/153539293/069c012f-7404-4621-994b-deb0abf48b15)
 
 ## SECURITY: Snyk
 ![image](https://github.com/CloudHirsi/AWS-K8-CICD/assets/153539293/8351d170-fb5d-4d11-99ea-e037c3f44f62)
+
+## ArgoCD:
+![image](https://github.com/CloudHirsi/AWS-K8-CICD/assets/153539293/18e93b51-4d56-4a69-a18d-e69752234f86)
 
 ## Working Application:
 ![image](https://github.com/CloudHirsi/AWS-K8-CICD/assets/153539293/ece97ea3-b3b5-47fd-8559-f6a60c40530f)
